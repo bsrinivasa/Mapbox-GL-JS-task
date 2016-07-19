@@ -26,6 +26,9 @@ var map = new mapboxgl.Map({
     center: [76.9398,13.3118], // starting position
     zoom: 14 // starting zoom
 });
+
+map.addControl(new mapboxgl.Geocoder());
+
 </script>
 
 </body>
