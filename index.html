@@ -28,12 +28,15 @@ var map = new mapboxgl.Map({
     style: 'mapbox://styles/bsrinivasa/ciqrx4gy70019bkncwbjvfe5m', //stylesheet location
     center: [76.9398,13.3118], // starting position
     zoom: 14 // starting zoom
+
 });
 
 map.addControl(new mapboxgl.Geocoder());
 map.addControl(new mapboxgl.Directions());
 map.addControl(new mapboxgl.Geolocate({ position: 'bottom-right'}));
 map.addControl(new mapboxgl.Navigation({ position: 'top-right' }));
+
+
 
 </script>
 
